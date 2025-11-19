@@ -1,40 +1,32 @@
-# Exp.No:2c
-## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - RELATING TWO NUMBERS
+# Exp.No:2(c) BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS- z*56
 
----
+# AIM
+To write a python program using lambda function which takes z as a parameter and returns z*56 using python.
 
-### AIM  
-To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
+# ALGORITHM
+1.Start
 
----
+2.Read integer z from the user
 
-### ALGORITHM
+3.Define a lambda function: product = lambda z: z * 56
 
-1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
+4.Call the product function with input z
 
----
+5.Print the result
 
-### PROGRAM
+6.End
 
+# PROGRAM
 ```
-
+# RENO:-212222060229
+# Name:-sarvesan lathika
+z=int(input())
+product=lambda z:z*56
+print(product(z))
 ```
+# OUTPUT
+<img width="318" height="201" alt="image" src="https://github.com/user-attachments/assets/2f43c5f0-8320-42b8-9fd0-beb9d303adb3" />
 
-### OUTPUT
 
-```
-
-```
-
-### RESULT
-
-```
-
-```
+# RESULT
+Thus the python program using lambda function which takes z as a parameter and returns z*56 using python has been implemented and executed successfully.
